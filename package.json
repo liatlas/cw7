@@ -27,7 +27,8 @@
   },
     "homepage": "https://liatlas.github.io/cw7",
     "scripts": {
+        "build": "vite build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     }
 }
